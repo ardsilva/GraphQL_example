@@ -1,0 +1,19 @@
+type User {
+    dataCad: String!
+    cargo: String!
+    cpf: Float!
+    nome: String!
+    ufNasc: String!
+    salario: Float!
+    status: String!
+}
+
+type Query {
+    users: [User!]
+    getByName(nome: String!): [User!]
+    getByCPF(cpf: Float!): User!
+}
+
+type Mutation {
+    createUser(name: String!, email: String!): User
+}
