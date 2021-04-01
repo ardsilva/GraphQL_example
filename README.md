@@ -1,2 +1,2 @@
-# test_seidor
-Teste de back e front para a Seidor
+# graphql
+projeto de Graphql + NodeJS utilizando um JSON como DB
